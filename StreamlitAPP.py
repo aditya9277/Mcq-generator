@@ -12,7 +12,7 @@ from src.mcqgenerator.logger import logging
 with open(r'Response.json',"r") as file:
     RESPONSE_JSON=json.load(file)
 
-st.title("MCQ GENERATOR APPLICATION WITH LANGCHAIN")
+st.title("Multiple Choice Questions Generator")
 
 with st.form("user_inputs"):
     
